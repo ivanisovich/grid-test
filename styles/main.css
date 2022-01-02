@@ -109,6 +109,10 @@ p {
 
 }
 
+.bootstrap-link {
+    padding-bottom: 20px;
+}
+
 @media (max-width: 1220px) {
     .footer__contacts li {
         padding-right: 6vw;

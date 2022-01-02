@@ -149,10 +149,6 @@
     grid-column-end: 3;
 }
 
-.bootstrap-link {
-    padding-bottom: 20px;
-}
-
 @media (max-width:1200px) {
     .article-wrapper {
         align-items: center;

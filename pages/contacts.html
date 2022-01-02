@@ -17,83 +17,86 @@
 <body>
     <header class="header">
         <nav class="header__navigation container">
-            <a href="../index.html">
+            <a aria-label="link to main page" href="../index.html">
                 <img src=".././images/logo.svg" alt="logo">
             </a>
 
-            <a href="../pages/contacts.html">
+            <a aria-label="link to contacts" href="../pages/contacts.html">
                 <img src="../images/user_logo.svg" alt="logo">
             </a>
         </nav>
 
         <div class="header__text">
-            <h1>Contact Us</h1>
+            <h1 class="main-title">Contact Us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. </p>
         </div>
     </header>
 
-    <div class="feedback">
-        <div class="feedback__contacts">
-            <img src=".././images/feedback__image.png"
-                alt="A girl lying on a soft armchair a bag and choosing a feedback method">
-            <h3>address</h3>
+    <main>
+        <div class="feedback">
+            <div class="feedback__contacts">
+                <img src=".././images/feedback__image.png"
+                    alt="A girl lying on a soft armchair a bag and choosing a feedback method">
+                
+                <h2 class="article-title">address</h2>
 
-            <div class="feedback__contacts-item">
-                <p>Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+                <div class="feedback__contacts-item">
+                    <p>Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+                </div>
+
+                <h2 class="article-title">phone</h2>
+
+                <div class="feedback__contacts-item">
+                    <img src=".././images/phone.svg" alt="phone icon">
+                    <span>+7-812-7313-4321</span>
+                </div>
+
+                <div class="feedback__contacts-item">
+                    <img src=".././images/phone.svg" alt="phone icon">
+                    <span>+7-817-0000-1234</span>
+                </div>
+
+                <h2 class="article-title">online service</h2>
+
+                <div class="feedback__contacts-item">
+                    <img src=".././images/web.svg" alt="web icon">
+                    <span>www.site.com</span>
+                </div>
+
+                <div class="feedback__contacts-item">
+                    <img src=".././images/mail.svg" alt="email logo">
+                    <span>hello.site@gmail.com</span>
+                </div>
             </div>
 
-            <h3>phone</h3>
+            <form action="#" class="feedback__form">
+                <h3 class="article-title">SEND US MESSAGE</h3>
 
-            <div class="feedback__contacts-item">
-                <img src=".././images/phone.svg" alt="phone icon">
-                <span>+7-812-7313-4321</span>
-            </div>
+                <div class="feedback__form-item">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                </div>
 
-            <div class="feedback__contacts-item">
-                <img src=".././images/phone.svg" alt="phone icon">
-                <span>+7-817-0000-1234</span>
-            </div>
+                <div class="feedback__form-item">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Your Email">
+                </div>
 
-            <h3>online service</h3>
+                <div class="feedback__form-item">
+                    <label for="message">Message</label>
+                    <input type="text" id="message" placeholder="Your Name">
+                </div>
 
-            <div class="feedback__contacts-item">
-                <img src=".././images/web.svg" alt="web icon">
-                <span>www.site.com</span>
-            </div>
-
-            <div class="feedback__contacts-item">
-                <img src=".././images/mail.svg" alt="email logo">
-                <span>hello.site@gmail.com</span>
-            </div>
+                <button class="button">submit</button>
+            </form>
         </div>
 
-        <form action="#" class="feedback__form">
-            <h3>SEND US MESSAGE</h3>
-
-            <div class="feedback__form-item">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" placeholder="Your Name">
-            </div>
-
-            <div class="feedback__form-item">
-                <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Your Email">
-            </div>
-
-            <div class="feedback__form-item">
-                <label for="message">Message</label>
-                <input type="text" id="message" placeholder="Your Name">
-            </div>
-
-            <button class="button">submit</button>
-        </form>
-    </div>
-
-    <div class="map">
-        <script type="text/javascript" charset="utf-8" async
-            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A62e3ea046008762242f52ed23a978ce1ddb5c0f8da109fac4385a4d7557b3b60&amp;height=480px&amp;lang=ru_RU&amp;scroll=true"></script>
-    </div>
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A62e3ea046008762242f52ed23a978ce1ddb5c0f8da109fac4385a4d7557b3b60&amp;height=480px&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </main>
 
     <footer class="footer ">
         <div class="footer__text container">
@@ -126,6 +129,13 @@
 
             <div class="footer__copyright">
                 <p>2020 All rights reserved.</p>
+            </div>
+            
+            <div class="bootstrap-link">
+                <a href="./pages/bootstrap.html">
+                    <img class="d-block mx-auto mb-4" width="72" height="57"
+                        src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="bootstrap logo">
+                </a>
             </div>
         </div>
     </footer>
