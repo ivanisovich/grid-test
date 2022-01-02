@@ -80,14 +80,14 @@
 }
 
 .article-wrapper p {
-    opacity: 0.6;
+    opacity: 0.65;
 
     padding-top: 14px;
     padding-bottom: 30px;
 }
 
 .article-wrapper a {
-    color: #5A98D0;
+    color: #3677BF;
     padding-right: 39px;
     background: url("../images/arrow.svg") no-repeat;
     background-position: right;
