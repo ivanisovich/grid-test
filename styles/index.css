@@ -1,0 +1,255 @@
+.main-title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+}
+
+.section-title {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.article-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.header {
+    padding-bottom: 93px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.header__promotion {
+    display: flex;
+}
+
+.header__promotion-text {
+    max-width: 504px;
+    min-width: 504px;
+    color: #1F3F68;
+}
+
+.header__promotion-text p {
+    padding-right: 126px;
+    padding-top: 32px;
+    padding-bottom: 71px;
+}
+
+.header__promotion-text .button {
+    border-radius: 10px;
+}
+
+.header__promotion img {
+    width: 48%;
+    max-width: 553px;
+    object-fit: scale-down;
+    min-width: unset;
+}
+
+.article-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 64px;
+    color: #0f223c;
+}
+
+.article-wrapper .article {
+    box-sizing: border-box;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    min-width: 358px;
+    max-width: 358px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 44px 32px 44px 32px;
+}
+
+.article-wrapper .article-title {
+    padding-top: 50px;
+    color: #1F3F68;
+}
+
+.article-wrapper :nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.article-wrapper p {
+    opacity: 0.6;
+
+    padding-top: 14px;
+    padding-bottom: 30px;
+}
+
+.article-wrapper a {
+    color: #5A98D0;
+    padding-right: 39px;
+    background: url("../images/arrow.svg") no-repeat;
+    background-position: right;
+}
+
+.our-projects__text {
+    padding-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 750px;
+    color: #222222;
+}
+
+.our-projects .section-title {
+    padding-top: 32px;
+}
+
+.projects-wrapper {
+    padding-top: 64px;
+    padding-bottom: 112px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.projects-wrapper img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.projects-wrapper article {
+    position: relative;
+
+}
+
+.projects-wrapper h2 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 32px;
+    left: 0px;
+    position: absolute;
+}
+
+.project--large h2 {
+    font-size: 32px;
+    left: unset;
+    right: 0px;
+    padding: 64px;
+}
+
+.project--large {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.bootstrap-link {
+    padding-bottom: 20px;
+}
+
+@media (max-width:1200px) {
+    .article-wrapper {
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .article-wrapper .article {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:1000px) {
+    .header__promotion img {
+        width: 54%;
+        margin-bottom: -250px;
+        margin-left: -180px;
+    }
+
+    .header {
+        padding-bottom: 147px;
+    }
+}
+
+@media (max-width:768px) {
+    .header__promotion img {
+        width: calc(50vw - 40px);
+    }
+
+    .our-projects__text {
+        max-width: 480px;
+    }
+
+
+}
+
+@media (max-width:670px) {
+    .header {
+        padding-bottom: 41px;
+    }
+
+    .main-title {
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        padding-top: 48px;
+    }
+
+    .header__promotion-text {
+        min-width: 314px;
+    }
+
+    .header__promotion img {
+        display: none;
+    }
+
+    .header__promotion-text p,
+    .header__promotion {
+        text-align: center;
+    }
+
+    .header__promotion p {
+        padding-right: 0px;
+        padding-bottom: 32px;
+    }
+
+    .projects-wrapper h2 {
+        font-size: 16px;
+        padding: 16px;
+    }
+
+    .article-wrapper {
+        padding-top: 32px;
+    }
+
+    .article-wrapper .article {
+        min-width: 328px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .header__promotion .button {
+        padding: 2px 7px 2px 7px;
+    }
+
+    .projects-wrapper {
+        padding-bottom: 64px;
+        gap: 16px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project--large {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
