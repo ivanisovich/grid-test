@@ -15,6 +15,10 @@ body {
     padding-right: 113px;
 }
 
+img{
+    object-fit: scale-down;
+}
+
 span,
 p {
     font-size: 16px;
