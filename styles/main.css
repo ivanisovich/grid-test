@@ -182,10 +182,15 @@ p {
         padding-bottom: 41px;
     }
 
+    .footer__text h2{
+        font-size: 24px;
+    }
+
     .footer__text-wrapper {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        padding: 0;
         padding-bottom: 40px;
     }
 

@@ -79,18 +79,24 @@
     margin-right: 0px;
 }
 
-.article-wrapper p {
+.article p {
     opacity: 0.65;
 
     padding-top: 14px;
     padding-bottom: 30px;
 }
 
-.article-wrapper a {
+.article a {
     color: #3677BF;
     padding-right: 39px;
     background: url("../images/arrow.svg") no-repeat;
     background-position: right;
+}
+
+.article img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .our-projects__text {
