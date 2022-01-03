@@ -55,6 +55,7 @@ p {
 
 .footer__text-wrapper {
     max-width: 445px;
+    padding-right: 30px;
 }
 
 .footer__text-wrapper h2 {
